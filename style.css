@@ -1,0 +1,66 @@
+body {
+    font-family: 'Neuton', sans-serif;
+    background: #111;
+    color: #eee;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: #00ffcc;
+}
+form {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+input, button {
+    padding: 10px;
+    font-size: 16px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    background: #222;
+    margin: 5px 0;
+    padding: 10px;
+    border-left: 5px solid #444;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.win { border-color: #0f0; }
+.loss { border-color: #f00; }
+.draw { border-color: #ff0; }
+.delete-button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: #ff4c4c;
+}
+
+h1 {
+    font-family: 'Londrina Shadow', sans-serif;
+    font-size: 4.0em;
+    margin: 0;
+}
+
+.header-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.title-icon {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
