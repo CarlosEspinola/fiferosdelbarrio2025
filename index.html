@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>FIFEROS DEL BARRIO FL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <link href="https://fonts.googleapis.com/css2?family=Neuton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina Shadow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Coiny:wght@600&display=swap" rel="stylesheet">
+<div class="header-title">
+    <h1>FIFEROS DEL BARRIO FL</h1>
+    <img src="IMAGEN/FIFERO.jpeg" alt="Ícono" class="title-icon">
+     
+</div>
+    <form id="match-form">
+       
+        <input type="text" id="player1" placeholder="Jugador 1" required>
+        <input type="number" id="score1" placeholder="Goles Jugador 1" required>
+        <input type="number" id="score2" placeholder="Goles Jugador 2" required>
+        <input type="text" id="player2" placeholder="Jugador 2" required>
+        <button type="submit">Guardar Partido</button>
+    </form>
+    <h2>Historial de Partidos</h2>
+    <ul id="match-history"></ul>
+    <h2>Estadísticas por Jugador</h2>
+    <div id="player-stats"></div>
+    <script src="script.js"></script>
+</body>
+</html>
